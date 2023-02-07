@@ -1,7 +1,8 @@
 # MakerBot Typer Project
 This Project's goal was to use what was once a Makerbot 3D printer and reprogram it to do something else entirely. Our goal was to connect it with two keyboards and have it read so that whenever something was typed on one keyboard it would type it faster on the other. The problem this solved was helping Zack type faster on an online typing test.
+![IMG-0741](https://user-images.githubusercontent.com/112979288/217347712-2c251434-4a55-4bea-a959-e4c4425f95dc.jpg)
 
-This repo is a template VS code project for CircuitPython projects that automatically uploads your code to the board when you press F5. Requires F5Anything extension.
+
 ## Use
 ### Every new project:
 1. Make a GitHub account if you don't have one with your normal school credentials and sign into it.
