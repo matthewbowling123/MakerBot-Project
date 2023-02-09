@@ -4,7 +4,6 @@ This Project's goal was to use what was once a Makerbot 3D printer and reprogram
 ![IMG-0742](https://user-images.githubusercontent.com/112979288/217352139-2f6f64c7-9ace-4b89-bcd1-329e3a5a4a7f.jpg)
 
 ### Table of Contents
-* [Starting Off] (#starting_off)
 
 ## Starting Off
 We started off this project with an old makerbot replicator 3D printer. After removing most of the unnecessary parts we began researching how it works.
@@ -21,7 +20,7 @@ Another problem we ran into was that the replacement steppers were a little bit 
 ### Arm
 ![arm](https://user-images.githubusercontent.com/112979288/217352488-7e023115-77d6-489d-8f9d-41f511e9d05e.png)
 https://cvilleschools.onshape.com/documents/9e516a7f78c5ed6bf7303036/w/41e953797044e05bd9e8a00e/e/c8e9a7781c4316b081b41bd0
-This part is meant to press the keys. It was originally straight but needed to be curved in order to hit the keys correctly.
+This part is meant to press the keys. It was originally straight but when that version tried to press the keyes it hit them at an angle that was unable to press the keys.
 ### Stepper Holder
 ![thing](https://user-images.githubusercontent.com/112979288/217352737-ef97f164-0b01-4b9d-a98f-be0bfb9de4bc.png)
 https://cvilleschools.onshape.com/documents/9e516a7f78c5ed6bf7303036/w/41e953797044e05bd9e8a00e/e/6943abbfb780bc1d2de1d966
