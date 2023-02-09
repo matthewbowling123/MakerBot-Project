@@ -3,6 +3,13 @@ This Project's goal was to use what was once a Makerbot 3D printer and reprogram
 ![IMG-0741](https://user-images.githubusercontent.com/112979288/217347712-2c251434-4a55-4bea-a959-e4c4425f95dc.jpg)
 ![IMG-0742](https://user-images.githubusercontent.com/112979288/217352139-2f6f64c7-9ace-4b89-bcd1-329e3a5a4a7f.jpg)
 
+##### Table of Contents  
+[Headers](#headers)  
+[Emphasis](#emphasis)  
+...snip...    
+<a name="headers"/>
+## Headers
+
 
 ## Starting Off
 We started off this project with an old makerbot replicator 3D printer. After removing most of the unnecessary parts we began researching how it works.
