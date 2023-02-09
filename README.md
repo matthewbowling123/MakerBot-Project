@@ -24,3 +24,5 @@ This part is meant to press the keys. It was originally straight but needed to b
 ![thing](https://user-images.githubusercontent.com/112979288/217352737-ef97f164-0b01-4b9d-a98f-be0bfb9de4bc.png)
 https://cvilleschools.onshape.com/documents/9e516a7f78c5ed6bf7303036/w/41e953797044e05bd9e8a00e/e/6943abbfb780bc1d2de1d966
 This part was printed in order to hold the Servo on the Arm. It rests in  between the vertical parts and screws in perfectly.
+##Wiring
+###![image](https://user-images.githubusercontent.com/112979288/217928821-43becff0-1c39-4742-8a9c-8a6691fa268b.png)
