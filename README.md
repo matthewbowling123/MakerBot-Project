@@ -13,34 +13,37 @@ Our original plan was to use the motors that were already in the MakerBot. howev
 
 ### Typing Arm attachment
 We also ran into a problem with changing the arm already on the printer due to it not being designed for typing. We ended up removing a large portion of it and replacing it with a 3D part and a servo that would be used as an arm to punch the keys. This initially did not work as the arm came in at an angle that did not press the keys right. So I designed an arm that came in at a better angle.
-Another problem we ran into was that the replacement steppers were a little bit longer than the original. This was not a problem for most of the replacements except the one for the x axis. we needed to design a part that would hold the stepper back just enough so that nothing would obstruct its rotation. putting this part in was incredibly difficult because it was really tight but ended up fitting
+
 
 <img src="https://user-images.githubusercontent.com/112979288/217354597-351d8de1-489a-4bbc-abcf-782780c5e713.jpg?raw=true" alt="wiring2" style="width:318px;">
 
 ## Parts Design
-### Typing Arm Attachment
+### Solonoid button extender
 #### Purpose
-We also ran into a problem with changing the arm already on the printer due to it not being designed for typing. We ended up removing a large portion of it and replacing it with a 3D part and a servo that would be used as an arm to punch the keys. This initially did not work as the arm came in at an angle that did not press the keys right. So I designed an arm that came in at a better angle.
+
 #### Image
-<img src="https://user-images.githubusercontent.com/112979288/217354597-351d8de1-489a-4bbc-abcf-782780c5e713.jpg?raw=true" alt="wiring2" style="width:318px;">
+
 #### Evidence
 [Link](https://cvilleschools.onshape.com/documents/9e516a7f78c5ed6bf7303036/w/41e953797044e05bd9e8a00e/e/c8e9a7781c4316b081b41bd0)
 #### Reflection
-This part is meant to press the keys. It was originally straight but when that version tried to press the keyes it hit them at an angle that was unable to press the keys.
+
 ### Stepper Holder
 #### Purpose
 #### Image
-![thing](https://user-images.githubusercontent.com/112979288/217352737-ef97f164-0b01-4b9d-a98f-be0bfb9de4bc.png)
+
+<img src="C:\Users\zsiller38\Pictures\Screenshot 2023-03-21 151731.png?raw=true" alt="wiring2" style="width:318px;">
 #### Evidence
 [Link](https://cvilleschools.onshape.com/documents/9e516a7f78c5ed6bf7303036/w/41e953797044e05bd9e8a00e/e/6943abbfb780bc1d2de1d966)
-This part was printed in order to hold the Servo on the Arm. It rests in  between the vertical parts and screws in perfectly.
+
 #### Reflection
 ### Spacer
 #### Purpose
 Another problem we ran into was that the replacement steppers were a little bit longer than the original. This was not a problem for most of the replacements except the one for the x axis. we needed to design a part that would hold the stepper back just enough so that nothing would obstruct its rotation. putting this part in was incredibly difficult because it was really tight but ended up fitting.
-![unnamed](https://user-images.githubusercontent.com/112979288/217354597-351d8de1-489a-4bbc-abcf-782780c5e713.jpg)
+
 #### Image
+<img src="https://user-images.githubusercontent.com/112979288/217354597-351d8de1-489a-4bbc-abcf-782780c5e713.jpg?raw=true" alt="wiring2" style="width:318px;">
 #### Evidence
+[Link](https://cvilleschools.onshape.com/documents/9e516a7f78c5ed6bf7303036/w/41e953797044e05bd9e8a00e/e/6943abbfb780bc1d2de1d966)
 #### Reflection
 
 ## Wiring
