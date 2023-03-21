@@ -1,7 +1,7 @@
 # MakerBot Typer Project
 This Project's goal was to use what was once a Makerbot 3D printer and reprogram it to do something else entirely. Our goal was to connect it with two keyboards and have it read so that whenever something was typed on one keyboard it would type it faster on the other. The problem this solved was helping Zack type faster on an online typing test.
-![IMG-0741](https://user-images.githubusercontent.com/112979288/217347712-2c251434-4a55-4bea-a959-e4c4425f95dc.jpg)
-![IMG-0742](https://user-images.githubusercontent.com/112979288/217352139-2f6f64c7-9ace-4b89-bcd1-329e3a5a4a7f.jpg)
+
+<img src="https://user-images.githubusercontent.com/112979288/217347712-2c251434-4a55-4bea-a959-e4c4425f95dc.jpg?raw=true" alt="wiring2" style="width:318px;"> <img src="https://user-images.githubusercontent.com/112979288/217352139-2f6f64c7-9ace-4b89-bcd1-329e3a5a4a7f.jpg?raw=true" alt="wiring2" style="width:318px;">
 
 ### Table of Contents
 
@@ -14,15 +14,15 @@ Our original plan was to use the motors that were already in the MakerBot. howev
 ### Typing Arm attachment
 We also ran into a problem with changing the arm already on the printer due to it not being designed for typing. We ended up removing a large portion of it and replacing it with a 3D part and a servo that would be used as an arm to punch the keys. This initially did not work as the arm came in at an angle that did not press the keys right. So I designed an arm that came in at a better angle.
 Another problem we ran into was that the replacement steppers were a little bit longer than the original. This was not a problem for most of the replacements except the one for the x axis. we needed to design a part that would hold the stepper back just enough so that nothing would obstruct its rotation. putting this part in was incredibly difficult because it was really tight but ended up fitting
-![unnamed](https://user-images.githubusercontent.com/112979288/217354597-351d8de1-489a-4bbc-abcf-782780c5e713.jpg)
 
+<img src="https://user-images.githubusercontent.com/112979288/217354597-351d8de1-489a-4bbc-abcf-782780c5e713.jpg?raw=true" alt="wiring2" style="width:318px;">
 
 ## Parts Design
 ### Typing Arm Attachment
 #### Purpose
 We also ran into a problem with changing the arm already on the printer due to it not being designed for typing. We ended up removing a large portion of it and replacing it with a 3D part and a servo that would be used as an arm to punch the keys. This initially did not work as the arm came in at an angle that did not press the keys right. So I designed an arm that came in at a better angle.
 #### Image
-![arm](https://user-images.githubusercontent.com/112979288/217352488-7e023115-77d6-489d-8f9d-41f511e9d05e.png)
+<img src="https://user-images.githubusercontent.com/112979288/217354597-351d8de1-489a-4bbc-abcf-782780c5e713.jpg?raw=true" alt="wiring2" style="width:318px;">
 #### Evidence
 [Link](https://cvilleschools.onshape.com/documents/9e516a7f78c5ed6bf7303036/w/41e953797044e05bd9e8a00e/e/c8e9a7781c4316b081b41bd0)
 #### Reflection
