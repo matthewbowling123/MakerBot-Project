@@ -24,6 +24,7 @@ We also ran into a problem with changing the arm already on the printer due to i
 #### Image
 
 #### Evidence
+
 [Link](https://cvilleschools.onshape.com/documents/9e516a7f78c5ed6bf7303036/w/41e953797044e05bd9e8a00e/e/c8e9a7781c4316b081b41bd0)
 #### Reflection
 
@@ -33,6 +34,7 @@ We also ran into a problem with changing the arm already on the printer due to i
 
 <img src="C:\Users\zsiller38\Pictures\Screenshot 2023-03-21 151731.png?raw=true" alt="wiring2" style="width:318px;">
 #### Evidence
+
 [Link](https://cvilleschools.onshape.com/documents/9e516a7f78c5ed6bf7303036/w/41e953797044e05bd9e8a00e/e/6943abbfb780bc1d2de1d966)
 
 #### Reflection
