@@ -131,5 +131,6 @@ void loop()
 #### Reflection
 
 ## Final Reflection
+This project was incredibly difficult and we needed more time on it. However it was a wonderful learning expierience in terms of figuring out how Steppers work. Overall we are glad we did this. In future projects involving Steppers we will definitly be returning to this project.
 #### Matt
 #### Zac
