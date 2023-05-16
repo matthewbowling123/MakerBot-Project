@@ -1,7 +1,15 @@
 # MakerBot Typer Project
 
 ### Table of Contents
+[Planning](planning)
 
+[Part Design](part_design)
+
+[Code](code)
+
+[Construction](construction)
+
+[Final Reflection](final_reflection)
 ## Planning
 We started off this project with an old makerbot replicator 3D printer. After removing most of the unnecessary parts we began researching how it works.
 
@@ -41,9 +49,9 @@ We also ran into a problem with changing the arm already on the printer due to i
 | **Reflection:** This part worked very well, the solonoid screwed in perfectly. However the bracket did not fit perfectly into the cart so we had to do some filing to get it to fit properly. Another thing we realized after putting in the solonoid in was that the tip did not extend down far enough to press the keys. We could raise the keyboard up but then other keys would be pressed down by other parts of the 3D printer. I hindsight it would have been better to measure and plan out where everything would go. This would have prevented the issue with the bracket not properly fitting. | **Reflection:** This part worked very well, the solonoid screwed in perfectly. However the bracket did not fit perfectly into the cart so we had to do some filing to get it to fit properly. Another thing we realized after putting in the solonoid in was that the tip did not extend down far enough to press the keys. We could raise the keyboard up but then other keys would be pressed down by other parts of the 3D printer. I hindsight it would have been better to measure and plan out where everything would go. This would have prevented the issue with the bracket not properly fitting. |
 
 
-## Coding
+## Code
 #### Goal
-#### Code
+#### Evidence
 ``` C++
 #include <Stepper.h>
 
