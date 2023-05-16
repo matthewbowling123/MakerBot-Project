@@ -11,8 +11,7 @@ We started off this project with an old makerbot replicator 3D printer. After re
 ### Stepper Intergration
 Our original plan was to use the motors that were already in the MakerBot. however these motors were not compatible with the H bridges the engineering lab provided. They were technically compatible however with the H bridges in the Makerbot. We spent a good deal of time trying to figure out how they work. Due to another engineering student (Graham) frying them we ended up removing the steppers entirely and replacing them with ones that were compatible with the H bridges in the lab. We also took apart some more of the MakerBot and removed the Steppers it came with, replacing them with the Steppers the lab provided. The stepper size was NEMA-17.
 ### Solenoid
-<img src="https://user-images.githubusercontent.com/112979288/226721677-1324fcad-9c80-49d7-b6e7-bd6ef048a0c3.jpg" alt="wiring2" style="width:318px;">
-<img src="https://user-images.githubusercontent.com/112979288/226720964-acab377a-7198-40f2-a331-69bd18af13fd.jpg" alt="wiring2" style="width:318px;">
+<img src="https://user-images.githubusercontent.com/112979288/226721677-1324fcad-9c80-49d7-b6e7-bd6ef048a0c3.jpg" alt="wiring2" style="width:318px;"> <img src="https://user-images.githubusercontent.com/112979288/226720964-acab377a-7198-40f2-a331-69bd18af13fd.jpg" alt="wiring2" style="width:318px;">
 
 
 ### Typing Arm attachment
