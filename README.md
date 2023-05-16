@@ -12,6 +12,16 @@ We started off this project with an old makerbot replicator 3D printer. After re
 <img src="https://user-images.githubusercontent.com/112979288/217347712-2c251434-4a55-4bea-a959-e4c4425f95dc.jpg?raw=true" alt="wiring2" style="width:318px;"> <img src="https://user-images.githubusercontent.com/112979288/217352139-2f6f64c7-9ace-4b89-bcd1-329e3a5a4a7f.jpg?raw=true" alt="wiring2" style="width:318px;">
 ### Objective
 This Project's goal was to use what was once a Makerbot 3D printer and reprogram it to do something else entirely. Our goal was to connect it with two keyboards and have it read so that whenever something was typed on one keyboard it would type it faster on the other. The problem this solved was helping Zack type faster on an online typing test.
+### Materials
+* Steppers
+* Solenoid
+* Arduino
+* Wires
+* Makerbot 3d printer
+* Resistors
+* 3d printed parts
+
+### Planning Sketches
 
 ### Milestones
 | Stage  | Date | Objectives
