@@ -32,17 +32,6 @@ This Project's goal was to use what was once a Makerbot 3D printer and reprogram
 | Coding | 1/31-2/10 | Code and test on individual parts |
 | Final touches and documentation | 2/10-2/14 | Make sure everything is working |
 
-| Solonoid in down position  | Solonoid in up position |
-| ------------- | ------------- |
-| <img src="https://user-images.githubusercontent.com/112979288/226721677-1324fcad-9c80-49d7-b6e7-bd6ef048a0c3.jpg" alt="wiring2" style="width:318px;"> | <img src="https://user-images.githubusercontent.com/112979288/226720964-acab377a-7198-40f2-a331-69bd18af13fd.jpg" alt="wiring2" style="width:318px;"> |
- 
-
-
-### Typing Arm attachment
-We also ran into a problem with changing the arm already on the printer due to it not being designed for typing. We ended up removing a large portion of it and replacing it with a 3D part and a servo that would be used as an arm to punch the keys. This initially did not work as the arm came in at an angle that did not press the keys right. So I designed an arm that came in at a better angle.
-
-
-<img src="https://user-images.githubusercontent.com/112979288/217354597-351d8de1-489a-4bbc-abcf-782780c5e713.jpg?raw=true" alt="wiring2" style="width:318px;">
 
 ## Parts Design
 | **Solonoid Holder** | **Stepper Spacer** |
@@ -50,8 +39,12 @@ We also ran into a problem with changing the arm already on the printer due to i
 | **Description:** In order to have a solonoid press each button we need a bracket to hold the solonoid upright. To make this part we took the mesurements of the cart that ran along the rails. Then using the dimensions of the solonoid we created a cylindrical holder that we are able to screw the threads of the solonoid into. | **Description:** Another problem we ran into was that the replacement steppers were a little bit longer than the original. This was not a problem for most of the replacements except the one for the x axis. we needed to design a part that would hold the stepper back just enough so that nothing would obstruct its rotation. putting this part in was incredibly difficult because it was really tight but ended up fitting. | 
 | <img src="https://user-images.githubusercontent.com/71402927/226723091-04569b69-43ff-4de7-a1c6-aa458dda53b2.png" alt="wiring2" style="width:318px;"> | <img src="https://user-images.githubusercontent.com/112979288/217354597-351d8de1-489a-4bbc-abcf-782780c5e713.jpg?raw=true" alt="wiring2" style="width:318px;"> |
 | **Evidence:** [Link](https://cvilleschools.onshape.com/documents/9e516a7f78c5ed6bf7303036/w/41e953797044e05bd9e8a00e/e/6943abbfb780bc1d2de1d966) | **Evidence:** [Link](https://cvilleschools.onshape.com/documents/9e516a7f78c5ed6bf7303036/w/41e953797044e05bd9e8a00e/e/6943abbfb780bc1d2de1d966)
-| **Reflection:** This part worked very well, the solonoid screwed in perfectly. However the bracket did not fit perfectly into the cart so we had to do some filing to get it to fit properly. Another thing we realized after putting in the solonoid in was that the tip did not extend down far enough to press the keys. We could raise the keyboard up but then other keys would be pressed down by other parts of the 3D printer. I hindsight it would have been better to measure and plan out where everything would go. This would have prevented the issue with the bracket not properly fitting. | **Reflection:** Our original plan was to use the motors that were already in the MakerBot. however these motors were not compatible with the H bridges the engineering lab provided. They were technically compatible however with the H bridges in the Makerbot. We spent a good deal of time trying to figure out how they work. Due to another engineering student (Graham) frying them we ended up removing the steppers entirely and replacing them with ones that were compatible with the H bridges in the lab. We also took apart some more of the MakerBot and removed the Steppers it came with, replacing them with the Steppers the lab provided. The spacer we used to account worked well after it was implemented but it was a pain to get into place.  |
+| **Reflection:** This part worked very well, the solonoid screwed in perfectly. However the bracket did not fit perfectly into the cart so we had to do some filing to get it to fit properly. Another thing we realized after putting in the solonoid in was that the tip did not extend down far enough to press the keys. We could raise the keyboard up but then other keys would be pressed down by other parts of the 3D printer. I hindsight it would have been better to measure and plan out where everything would go. This would have prevented the issue with the bracket not properly fitting. | **Reflection:** Our original plan was to use the motors that were already in the MakerBot. however these motors were not compatible with the H bridges the engineering lab provided. They were technically compatible however with the H bridges in the Makerbot. We ended up removing the steppers entirely and replacing them with ones that were compatible with the H bridges in the lab. We also took apart some more of the MakerBot and removed the Steppers it came with, replacing them with the Steppers the lab provided. The lab steppers had a slightly longer shaft than the ones in the maker bot. As a result, the end of the shaft hit part of the plastic bracket on the x-stepper preventing it from turning. A spacer was used to offset the stepper so they would not touch. They solved the problem but it was a pain to put in place. The small space and our clumsy fingers lead to several frustrating hours. We could have done nothing to avoid this because we could not cut the end of a stepper shaft off to make it fit better.  |
 
+| Solonoid in down position  | Solonoid in up position |
+| ------------- | ------------- |
+| <img src="https://user-images.githubusercontent.com/112979288/226721677-1324fcad-9c80-49d7-b6e7-bd6ef048a0c3.jpg" alt="wiring2" style="width:318px;"> | <img src="https://user-images.githubusercontent.com/112979288/226720964-acab377a-7198-40f2-a331-69bd18af13fd.jpg" alt="wiring2" style="width:318px;"> |
+ 
 
 ## Code
 #### Goal
