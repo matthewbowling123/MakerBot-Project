@@ -118,16 +118,16 @@ void loop()
 }
 ```
 #### Reflection
+The code recived several revisions throughout the project. It was initially supposed to allow us to type a message and then the robot would move and type it back. We never figured out how we were going to do this partly because neither of us fully planned out the code and therefor did not know were to start. This idea was also scraped due to time limitations from delays while encorperating the steppers. We then tried a service called octoprint which would allow us to control a 3d printer from an app. We soon realized that this would mean we are essentially using 3d printer software to control our project and we felt we had lost are initl purpose for the project. Finally we reverted to a simple code in c++ because that is what we were most comfortable with. The code took only a couple of days to write but as said earlier we never tested it fully because we ran out of time. In hindsight we would have used python because even though we were less familiar with it, it would have been a good learning experience to prepare us for our PID project.
 
 ## Construction
-When the deadline arrived we had gotten both steppers to move properly and we could control them with code. This also had it problems. When the cart slide along the y rail it kept getting caught on something. After cleaning the rail the problem was less sever.
+Construction took a very long time and was filled with challenges. The steppers not fitting due to there long shaft tokk weeks to resolve. This could have been avoided with a more thorough proof of conceptWhen the deadline arrived we had gotten both steppers to move properly and we could control them with code. This also had it problems. When the cart slide along the y rail it kept getting caught on something. After cleaning the rail the problem was less sever. The solonoid was also mounted and fuctioning properly but we never saw both parts working in tandem with the code we had written.
 
 ## Final Reflection
 This project was incredibly difficult and we needed more time on it. However it was a wonderful learning expierience in terms of figuring out how Steppers work. Overall we are glad we did this. In future projects involving Steppers we will definitly be returning to this project.
 #### Problems
 Our Robot arm encountered many issues throughout its design. First it was the steppers that came with the makerbot 3d printer. These steppers were not compatable with the H bridges we hyad in the Lab. Kaz and Graham tried to make use of the H bridges included in makerbot but they were unsuccessful. As a result we had to replace the steppers with ones from the lab. Although we had anticipated this it did add extra time to the project and created more issues. Secondly our original plan for pushing the keys did not work as intended. We planned that a servo would flick down to press each key, but after making a few prototypes we found that the range of motion of the servo was to limited and the shape of the keys made pressing each key perfectly very difficult. Both of these issues took weeks to resolve and poor time management meant we ran out of time before we could fully assemble the project.
-#### Solutions
-Changing the steppers created quite the headache. The shaft of each stepper was longer 
+
 #### Lessons Learned
 This project started out very ambitious. We wanted to be able to type some text and get our robot to type that message back to us. This project might have tried to achive too much but in hindsight we think it was still possible if we were more efficent and did a better job managing our time. The initial plans got reduced to controling the steppers with two potentiometers which although it would work was not as elegant as our original plans. In conclusion the primary reason we did not fully complete this project was our poor time management and a few problem that derailed our workflow.
 
