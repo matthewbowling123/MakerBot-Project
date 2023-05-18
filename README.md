@@ -1,11 +1,11 @@
 # MakerBot Typer Project
 
 ### Table of Contents
-- [Planning](planning)
-- [Part Design](part_design)
-- [Code](code)
-- [Construction](construction)
-- [Final Reflection](final_reflection)
+- [Planning](#planning)
+- [Part Design](part-design)
+- [Code](#code)
+- [Construction](#construction)
+- [Final Reflection](#final-reflection)
 ## Planning
 We started off this project with an old makerbot replicator 3D printer. After removing most of the unnecessary parts we began researching how it works.
 
