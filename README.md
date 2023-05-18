@@ -121,8 +121,7 @@ Construction took a very long time and was filled with challenges. The steppers 
 
 ## Solenoid Final
 
-
- <i![Stepper]()
+ <i![Stepper](https://github.com/matthewbowling123/MakerBot-Project/blob/master/Media/Solenoid.gif)
 
 ## Final Reflection
 This project was incredibly difficult and we needed more time on it. However it was a wonderful learning expierience in terms of figuring out how Steppers work. Overall we are glad we did this. In future projects involving Steppers we will definitly be returning to this project.
