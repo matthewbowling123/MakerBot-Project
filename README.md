@@ -116,7 +116,7 @@ The code recived several revisions throughout the project. It was initially supp
 Construction took a very long time and was filled with challenges. The steppers not fitting due to there long shaft tokk weeks to resolve. This could have been avoided with a more thorough proof of conceptWhen the deadline arrived we had gotten both steppers to move properly and we could control them with code. This also had it problems. When the cart slide along the y rail it kept getting caught on something. After cleaning the rail the problem was less sever. The solonoid was also mounted and fuctioning properly but we never saw both parts working in tandem with the code we had written.
 
 ## Stepper Final
-| <img src="" alt="wiring2" style="width:318px;">
+| <img src="Images/Stepper.gif" alt="Stepper" style="width:318px;">
 ## Solenoid Final
 ![image](
 ## Final Reflection
