@@ -115,6 +115,10 @@ The code recived several revisions throughout the project. It was initially supp
 ## Construction
 Construction took a very long time and was filled with challenges. The steppers not fitting due to there long shaft tokk weeks to resolve. This could have been avoided with a more thorough proof of conceptWhen the deadline arrived we had gotten both steppers to move properly and we could control them with code. This also had it problems. When the cart slide along the y rail it kept getting caught on something. After cleaning the rail the problem was less sever. The solonoid was also mounted and fuctioning properly but we never saw both parts working in tandem with the code we had written.
 
+## Stepper Final
+![image](https://drive.google.com/file/d/1GKmlQFKcg86tSuSCK2SsJSPdYFnxoYAm/view?usp=sharing)
+## Solenoid Final
+![image](
 ## Final Reflection
 This project was incredibly difficult and we needed more time on it. However it was a wonderful learning expierience in terms of figuring out how Steppers work. Overall we are glad we did this. In future projects involving Steppers we will definitly be returning to this project.
 #### Problems
