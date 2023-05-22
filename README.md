@@ -115,6 +115,9 @@ The code recived several revisions throughout the project. It was initially supp
 ## Construction
 Construction took a very long time and was filled with challenges. The steppers not fitting due to there long shaft tokk weeks to resolve. This could have been avoided with a more thorough proof of conceptWhen the deadline arrived we had gotten both steppers to move properly and we could control them with code. This also had it problems. When the cart slide along the y rail it kept getting caught on something. After cleaning the rail the problem was less sever. The solonoid was also mounted and fuctioning properly but we never saw both parts working in tandem with the code we had written.
 
+## Solenoid Wiring
+![Screenshot 2023-05-22 140436](https://github.com/matthewbowling123/MakerBot-Project/assets/112979288/6bdd3f03-2635-4956-bbe5-88a37e6f895b)
+
 ## Stepper Final
 
  <i![Stepper](https://github.com/matthewbowling123/MakerBot-Project/assets/112979288/462eccbd-fead-4424-a14d-f15414e4acb7)
