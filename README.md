@@ -17,13 +17,12 @@ Our first goal was to get the steppers to movie the rails along the X and Y axis
 ### Objective
 This Project's goal was to use what was once a Makerbot 3D printer and reprogram it to do something else entirely. Our goal was to connect it with two keyboards and have it read so that whenever something was typed on one keyboard it would type it faster on the other. The problem this solved was helping Zack type faster on an online typing test.
 ### Materials
-* Steppers
-* Solenoid
-* Arduino
-* Wires
-* Makerbot 3d printer
-* Resistors
-* 3d printed parts
+The total cost of materials is unknown due to us using an already existing Makerbot. The total Materials required though are as followed.
+* 2 Stepper Motors
+* 2 H Bridges
+* 1 Arduino
+* 1 Big Solenoid
+* A MakerBot 3D printer
 
 ### Planning Sketches
 <img src="https://github.com/matthewbowling123/MakerBot-Project/assets/112979288/62af7025-5d81-4aac-afd7-ebc57aee9e6b" alt="wiring2" style="width:318px;">
