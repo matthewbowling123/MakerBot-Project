@@ -23,6 +23,11 @@ The total cost of materials is unknown due to us using an already existing Maker
 * 1 Arduino
 * 1 Big Solenoid
 * A MakerBot 3D printer
+* Wires
+* BreadBoard
+* 2 Potentiometers
+* Button
+* Nuts and Bolts of various sizes
 
 ### Planning Sketches
 <img src="https://github.com/matthewbowling123/MakerBot-Project/assets/112979288/62af7025-5d81-4aac-afd7-ebc57aee9e6b" alt="wiring2" style="width:318px;">
