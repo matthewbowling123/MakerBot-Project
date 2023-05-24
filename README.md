@@ -6,11 +6,14 @@
 - [Code](#code)
 - [Construction](#construction)
 - [Final Reflection](#final-reflection)
-## Planning
+### Planning
 We started off this project with an old makerbot replicator 3D printer. After removing most of the unnecessary parts we began researching how it works.
 Here is a Link to Our Planning Document. [Link](https://docs.google.com/document/d/1T3XDndcVtskV35GWUf_W5hFFygKiFvkT9gGz4ztQe54/edit#heading=h.ukbi0a75zb46)
 
 <img src="https://user-images.githubusercontent.com/112979288/217347712-2c251434-4a55-4bea-a959-e4c4425f95dc.jpg?raw=true" alt="wiring2" style="width:318px;"> <img src="https://user-images.githubusercontent.com/112979288/217352139-2f6f64c7-9ace-4b89-bcd1-329e3a5a4a7f.jpg?raw=true" alt="wiring2" style="width:318px;">
+
+### Goals
+Our first goal was to get the steppers to movie the rails along the X and Y axis. The Z axis was not reqiuired for this project. Our second Goal was to get the keys pressede through means of a button. A large solenoid was what ultimatly was decided on. Our final goal was to get these to work together and type on a keyboard.
 ### Objective
 This Project's goal was to use what was once a Makerbot 3D printer and reprogram it to do something else entirely. Our goal was to connect it with two keyboards and have it read so that whenever something was typed on one keyboard it would type it faster on the other. The problem this solved was helping Zack type faster on an online typing test.
 ### Materials
