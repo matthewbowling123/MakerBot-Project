@@ -22,7 +22,8 @@ This Project's goal was to use what was once a Makerbot 3D printer and reprogram
 * 3d printed parts
 
 ### Planning Sketches
-
+![IMG-1149](https://github.com/matthewbowling123/MakerBot-Project/assets/112979288/479454c9-f520-46fe-b964-d8aa332471b4)
+![IMG-1150](https://github.com/matthewbowling123/MakerBot-Project/assets/112979288/d6a80c4b-8bca-462c-b4dc-1d54f0fc4a24)
 ### Milestones
 | Stage  | Date | Objectives
 | ------------- | ------------- | ------------ |
