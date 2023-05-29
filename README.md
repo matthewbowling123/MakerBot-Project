@@ -76,18 +76,27 @@ The total cost of materials is unknown due to us using an already existing Maker
 ## Code
 #### Goal
 The goal of this code was to use two potentiometers and a button to control the steppers and solenoid. The the code has set ranges that execute an action if the potentiometer value is in that range.For example if it is less than value x turn right, greater than x but less than y dont turn, and greater than y turn left. The solenoid can then be activated using a button and only if both the x and y steppers are stationary. The cons of this code are: it relies on you manually moving the solenoid over the key to press it, which could result in inprecise and slow typing.
+#### Pseudo code template
+* Setup and pin assignment
+* start loop
+* read potentiometer values
+* if in middle range steppers dont move and if button is pressed activate solonoid
+* if in left range move steppers left 1 step. This will repeat each run through the code so long as the potentiometer is still turned left.
+* Otherwise turn the steppers right.
+* Repeat code for both steppers on x and y axis. 
 #### Evidence
 ``` C++
+// Matt and Zachary makerbot code
+// May 29 2023
+// Code for controlling the steppers and solenoid
 #include <Stepper.h>
 
 Servo myServo;
-Stepper stepperx(STEPS, 4, 5, 6, 7);
+Stepper stepperx(STEPS, 4, 5, 6, 7); //stepper pins
 Stepper steppery(STEPS, 8, 9, 10, 11);
-int buttonPin = 12;
-int servoPin = 3;
-int servopush = 90;
-int servoretract = 0;
-int leftrange = 412;
+int buttonPin = 12; //Pin setup
+int solenoidPin = 13;
+int leftrange = 412; // Variable for potentiometer ranges
 int rightrange = 611;
 void setup()
 {
@@ -96,33 +105,34 @@ void setup()
   Serial.begin(9600);
   Serial.println("Stepper test!");
   stepper.setSpeed(60);
-  myServo.write(servoretract);
+  pinMode(solenoidPin, OUTPUT);
   
   }
 
 void loop()
-{ int sensorValuex = analogRead(A0);
+{ digitalWrite(solenoidPin=LOW);
+  int sensorValuex = analogRead(A0); //reads potentiometer values
   int sensorValuey = analogRead(A1);
-  Serial.println(sensorValuex);
+  Serial.println(sensorValuex); // prints the reading
   Serial.println(sensorValuey);
   if (rightrange > sensorValue1 > leftrange & rightrange > sensorValue2 > leftrange) {
-    digitalRead(buttonPin);
-    if(buttonPin=HIGH) {
-      Servo.write(servopush);
-      Serial.println(click);
-      Servo.write(servoretract);
+    digitalRead(buttonPin); // Makes sure the potentiometer value for each stepper is in the middle range of variable
+    if(buttonPin=HIGH) { // checks if the button is pressed
+      digitalWrite(solenoidPin=HIGH); // Presses the key using the solenoid
+      Serial.println(click); //
+      digitalWrite(solenoidPin=LOW);
       Serial.println(release);
     } else {
       Serial.println(wrongspot);
     }
-    continue;
+    continue; //Jumps back to start of void loop
   }
-  if (sensorValuex < leftrange) {
-    stepperx.step(1);
+  if (sensorValuex < leftrange) { // if the potentiometer is turned to the left move the stepper 1 step left
+    stepperx.step(1);             // this will repeat moving the belt to the left
     Serial.println(xleft);
     }
     else {
-      stepperx.step(-1);
+      stepperx.step(-1); // otherwise move the stepper right
       Serial.println(xright);
     }  
   if (sensorValuey < leftrange){
@@ -136,6 +146,7 @@ void loop()
     
 }
 ```
+[Link to code](https://create.arduino.cc/editor/zsiller38/8c163371-1a76-42bb-82ac-ac71e4fa67b8)
 #### Reflection
 The code recived several revisions throughout the project. It was initially supposed to allow us to type a message and then the robot would move and type it back. We never figured out how we were going to do this partly because neither of us fully planned out the code and therefor did not know were to start. This idea was also scraped due to time limitations from delays while encorperating the steppers. We then tried a service called octoprint which would allow us to control a 3d printer from an app. We soon realized that this would mean we are essentially using 3d printer software to control our project and we felt we had lost are initl purpose for the project. Finally we reverted to a simple code in c++ because that is what we were most comfortable with. The code took only a couple of days to write but as said earlier we never tested it fully because we ran out of time. In hindsight we would have used python because even though we were less familiar with it, it would have been a good learning experience to prepare us for our PID project.
 
