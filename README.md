@@ -10,13 +10,21 @@
 We started off this project with an old makerbot replicator 3D printer. After removing most of the unnecessary parts we began researching how it works.
 Here is a Link to Our Planning Document. [Link](https://docs.google.com/document/d/1T3XDndcVtskV35GWUf_W5hFFygKiFvkT9gGz4ztQe54/edit#heading=h.ukbi0a75zb46)
 
+<img src="https://github.com/matthewbowling123/MakerBot-Project/blob/master/Media/MakerBot_Replicator2_Front_View.jpg?raw=true" alt="wiring2" style="width:318px;">
+
+Original Makerbot before we removed unnecessary parts.
+
 <img src="https://user-images.githubusercontent.com/112979288/217347712-2c251434-4a55-4bea-a959-e4c4425f95dc.jpg?raw=true" alt="wiring2" style="width:318px;"> <img src="https://user-images.githubusercontent.com/112979288/217352139-2f6f64c7-9ace-4b89-bcd1-329e3a5a4a7f.jpg?raw=true" alt="wiring2" style="width:318px;">
 
-### Goals
-Our first goal was to get the steppers to movie the rails along the X and Y axis. The Z axis was not reqiuired for this project. Our second Goal was to get the keys pressede through means of a button. A large solenoid was what ultimatly was decided on. Our final goal was to get these to work together and type on a keyboard.
-### Objective
+Maker bot after all side panels had been taken off but before project completion
+
+
+#### Goals
+Our first goal was to get the steppers to movie the rails along the X and Y axis. The Z axis was not reqiuired for this project beause we would hold the keyboard at a fixed hight and create a module to press each key. Our second Goal was to get the keys pressede through means of a button. A large solenoid was what ultimatly was decided on. Our final goal was to get these to work together and type on a keyboard. If we have extra time before the project deadline we want to develope an easy way to type in some text editor and send the text to our robot and then the text would be typed. Perhaps this is too ambitious but we will see.
+
+#### Objective
 This Project's goal was to use what was once a Makerbot 3D printer and reprogram it to do something else entirely. Our goal was to connect it with two keyboards and have it read so that whenever something was typed on one keyboard it would type it faster on the other. The problem this solved was helping Zack type faster on an online typing test.
-### Materials
+#### Materials
 The total cost of materials is unknown due to us using an already existing Makerbot. The total Materials required though are as followed.
 * 2 Stepper Motors
 * 2 H Bridges
@@ -28,12 +36,21 @@ The total cost of materials is unknown due to us using an already existing Maker
 * 2 Potentiometers
 * Button
 * Nuts and Bolts of various sizes
+* Acrylic panel for mounting controls.
+* 1 tip120 for solenoid wiring
+* 1 diode for solenoid wiring
+* 1 resistor
 
-### Planning Sketches
+#### Potential Obstacles
+* How to intergrate steppers and whether or not we could use the steppers already within the makerbot.
+* How to press each key precisely and with enough force.
+* How to tell each stepper to move to get the pressing mechanism to each key location.
+
+#### Planning Sketches
 <img src="https://github.com/matthewbowling123/MakerBot-Project/assets/112979288/62af7025-5d81-4aac-afd7-ebc57aee9e6b" alt="wiring2" style="width:318px;">
 <img src="https://github.com/matthewbowling123/MakerBot-Project/assets/112979288/94b4d4ad-a6b8-41b9-94f0-b16a890b476a" alt="wiring2" style="width:318px;">
 
-### Milestones
+#### Milestones
 | Stage  | Date | Objectives
 | ------------- | ------------- | ------------ |
 | Research and Proof of Concept| 11/28-12/17 | Can we control steppers in the 3d printer or do we need to replace them. How are we going to press the keys. |
@@ -44,7 +61,7 @@ The total cost of materials is unknown due to us using an already existing Maker
 
 
 ## Parts Design
-| **Solonoid Holder** | **Stepper Spacer** |
+| **Solenoid Holder** | **Stepper Spacer** |
 |--------|--------------|
 | **Description:** In order to have a solonoid press each button we need a bracket to hold the solonoid upright. To make this part we took the mesurements of the cart that ran along the rails. Then using the dimensions of the solonoid we created a cylindrical holder that we are able to screw the threads of the solonoid into. | **Description:** Another problem we ran into was that the replacement steppers were a little bit longer than the original. This was not a problem for most of the replacements except the one for the x axis. we needed to design a part that would hold the stepper back just enough so that nothing would obstruct its rotation. putting this part in was incredibly difficult because it was really tight but ended up fitting. | 
 | <img src="https://user-images.githubusercontent.com/71402927/226723091-04569b69-43ff-4de7-a1c6-aa458dda53b2.png" alt="wiring2" style="width:318px;"> | <img src="https://user-images.githubusercontent.com/112979288/217354597-351d8de1-489a-4bbc-abcf-782780c5e713.jpg?raw=true" alt="wiring2" style="width:318px;"> |
