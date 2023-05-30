@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Planning](#planning)
-- [Part Design](part-design)
+- [Parts Design](#parts-design)
 - [Code and Wring](#code-and-wiring)
 - [Construction](#construction)
 - [Final Reflection](#final-reflection)
