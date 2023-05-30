@@ -158,9 +158,10 @@ The code recived several revisions throughout the project. It was initially supp
 ## Construction
 Construction took a very long time and was filled with challenges. The steppers not fitting due to there long shaft tokk weeks to resolve. This could have been avoided with a more thorough proof of conceptWhen the deadline arrived we had gotten both steppers to move properly and we could control them with code. This also had it problems. When the cart slide along the y rail it kept getting caught on something. After cleaning the rail the problem was less sever. The solonoid was also mounted and fuctioning properly but we never saw both parts working in tandem with the code we had written.
 
-| Working Stepper | Working Solenoid |
-| ------ | ------- |
-| <img src="https://github.com/matthewbowling123/MakerBot-Project/assets/112979288/462eccbd-fead-4424-a14d-f15414e4acb7" alt="wiring2" style="width:318px;"> |  <img src="https://github.com/matthewbowling123/MakerBot-Project/blob/master/Media/Solenoid.gif" alt="wiring2" style="width:318px;"> |
+| Working Stepper | Working Solenoid | Wiring |
+| ------ | ------- | ------ |
+| <img src="https://github.com/matthewbowling123/MakerBot-Project/assets/112979288/462eccbd-fead-4424-a14d-f15414e4acb7" alt="wiring2" style="width:318px;"> |  <img src="https://github.com/matthewbowling123/MakerBot-Project/blob/master/Media/Solenoid.gif" alt="wiring2" style="width:318px;"> |  <img src="https://github.com/matthewbowling123/MakerBot-Project/assets/112979288/60ca0dba-5c48-45b8-88d8-8c40b5129857" alt="wiring2" style="width:318px;">| 
+
 
 Final assembly images
 
